@@ -1,0 +1,21 @@
+
+.title {
+  font-size: 30px;
+}
+
+.container{
+background: url("/assets/fundo.png");
+background-size: auto;
+text-align: center;
+}
+
+.example-button-row {
+  width: 1700px;
+}
+.example-button-row .mat-button-base {
+  margin: 30px 15px 15px 30px;
+}
+
+
+
+

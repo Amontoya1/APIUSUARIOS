@@ -1,0 +1,15 @@
+<h1>Aqui las informaciones de los posts de los Usuarios</h1>
+
+
+<div>
+
+<li *ngFor= 'let Posts of Posts$'>
+  <b>{{ Posts.name }}  </b>
+
+<ul>
+ <li> Identificacion: {{ Posts.id}} </li>
+<li> Titulo: {{ Posts.title}}</li>
+<li> Contenido: {{ Posts.body}}</li>
+
+ </ul>
+</div>

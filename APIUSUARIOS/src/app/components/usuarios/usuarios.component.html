@@ -1,0 +1,16 @@
+
+<h1>Aqui las informaciones de los Usuarios </h1>
+
+<div>
+
+<li *ngFor= 'let user of Users$'>
+  <b>{{ user.name }}  </b>
+
+<ul>
+ <li> Identificacion: {{ user.id}} </li>
+<li> Apelidos: {{ user.username}}</li>
+<li> Email: {{ user.email }}</li>
+<li> Telefone: {{ user.phone }}</li>
+<li> Site Web: {{ user.website}}</li>
+ </ul>
+</div>
